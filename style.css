@@ -40,7 +40,7 @@ section {
 .text-block, .image-block {    
     min-height: 200px; 
     width: 400px;  
-    height: 300px;
+   
     box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.112);
     display: flex;
     justify-content: center;
@@ -48,6 +48,7 @@ section {
     font-size: 20px;
     background-color: white;
     border-radius: 6px;
+    transition: 1s;
 }
 /* Только для блоков с текстом -- такие*/
 .text-block{
@@ -66,6 +67,10 @@ section {
 }
 /* Из этих двух правил можно составить одно */
 
+
+.block-3, .block-4{
+    height: 300px;
+}
 
 
 /* все блоки с классами похожими на test-image */ 
